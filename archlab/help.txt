@@ -1,0 +1,20 @@
+
+#####################################################################
+#
+#
+# CS:APP Architecture Lab
+# something needed to install:
+#   1. sudo apt-get install bison flex
+#   2. comment out : #GUIMODE=-DHAS_GUI 
+#                    #TKLIBS=-L/usr/lib -ltk8.6 -ltcl8.6
+#                    #TKINC=-I/usr/include/tcl8.6
+#                    just use TTY mode
+#   3. make VERSION=full to do test in file seq
+#   4. test command: ./ssim -t ../y86-code/asumi.yo
+#   5. the amend position is in /seq/seq-full.hcl (corresponding to version=full)
+#   6. use (cd ../ptest; make SIM=../pipe/psim TFLAGS=-i) to test iadd 
+#   7. use ./correctness.pl -p to test the correctness
+#   8. use ./benchmark.pl to test the amend in ncopy.ys
+#   9. the method reference from https://zhuanlan.zhihu.com/p/33751460 && 
+#                                https://zhuanlan.zhihu.com/p/77072339
+######################################################################
